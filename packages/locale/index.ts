@@ -31,6 +31,7 @@ export { default as ky } from './lang/ky'
 export { default as lt } from './lang/lt'
 export { default as lv } from './lang/lv'
 export { default as mn } from './lang/mn'
+export { default as my } from './lang/my'
 export { default as nbNo } from './lang/nb-no'
 export { default as nl } from './lang/nl'
 export { default as pa } from './lang/pa'
@@ -53,6 +54,8 @@ export { default as uzUz } from './lang/uz-uz'
 export { default as vi } from './lang/vi'
 export { default as zhCn } from './lang/zh-cn'
 export { default as zhTw } from './lang/zh-tw'
+export { default as zhHk } from './lang/zh-hk'
+export { default as zhMo } from './lang/zh-mo'
 
 export type TranslatePair = {
   [key: string]: string | string[] | TranslatePair
